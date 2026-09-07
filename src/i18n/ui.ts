@@ -14,8 +14,8 @@ export const ui = {
     'hero.lede': 'TriliumNext 笔记的 iOS 阅读与记录客户端——把自托管服务器上的知识库带进手机，离线可读、全文可搜。',
     'hero.badge': '即将登陆 App Store',
     'hero.note': '上架后这里会换成 App Store 下载按钮。',
-    'free.text': '完全免费，没有内购、没有广告、不收集任何数据。',
-    'free.strong': '完全免费',
+    'free.text': '免费使用全部核心功能，不收集任何数据。Clover Pro 一次买断：多服务器、AI 对话不限量、备选图标。无订阅、无广告。',
+    'free.strong': '免费使用全部核心功能',
     'footer.disclaimer': 'Clover 是独立开发的第三方客户端，与 TriliumNext 项目无隶属关系。',
     'home.requirements': '同步需要 TriliumNext 服务器（0.99+）。支持 iPhone 与 iPad，简体中文、繁体中文、English、日本語。',
     'privacy.title': '隐私政策',
@@ -37,8 +37,8 @@ export const ui = {
     'hero.lede': 'The iOS reading & writing client for TriliumNext — your self-hosted knowledge base on your phone, readable offline, fully searchable.',
     'hero.badge': 'Coming soon to the App Store',
     'hero.note': 'This becomes the App Store button at launch.',
-    'free.text': 'Completely free — no in-app purchases, no ads, no data collection.',
-    'free.strong': 'Completely free',
+    'free.text': 'Free to use — all core features, no data collection. Clover Pro is a one-time purchase: multiple servers, unlimited AI chats, alternate icons. No subscription, no ads.',
+    'free.strong': 'Free to use',
     'footer.disclaimer': 'Clover is an independent third-party client, not affiliated with the TriliumNext project.',
     'home.requirements': 'Syncing requires a TriliumNext server (0.99+). iPhone and iPad. English, 简体中文, 繁體中文, 日本語.',
     'privacy.title': 'Privacy Policy',
@@ -83,6 +83,7 @@ export const faq: Record<Locale, { q: string; a: string }[]> = {
     { q: 'AI 不可用', a: 'AI 由你的 Trilium 服务端提供：在桌面端 设置 → AI/LLM 配置 provider 并启用，然后在 Clover 对话页右上「模型」里选择。Clover 不存任何 AI 密钥。' },
     { q: '分享到 Clover 后笔记在哪', a: '分享只写入待同步队列，打开 Clover 后自动上传；在 设置 → 待同步写入 可以看到。' },
     { q: '没有服务器可以用吗', a: '可以。首次打开选「先在本机使用」进入本地库；之后连接服务器时会引导你一键上传本机笔记。' },
+    { q: 'Clover Pro 包含什么？', a: '多服务器 / 多用户切换、AI 对话不限量（免费版保留 3 条）、备选 App 图标，以及后续的 Widget、快捷指令、Spotlight。一次买断，永久有效，可在所有设备恢复购买。' },
   ],
   en: [
     { q: 'Notes missing / not found in search', a: 'Pull down on Home to sync; while the status bar says “indexing”, search results fill in progressively. Bodies over 1 MB download on open.' },
@@ -91,6 +92,7 @@ export const faq: Record<Locale, { q: string; a: string }[]> = {
     { q: 'AI unavailable', a: 'AI comes from your Trilium server: on desktop go to Settings → AI/LLM, configure a provider and enable it, then pick it under “Model” in Clover’s chat. Clover stores no AI keys.' },
     { q: 'Where did my shared note go?', a: 'Sharing only queues the write; it uploads when you open Clover. See Settings → Pending writes.' },
     { q: 'Can I use it without a server?', a: 'Yes. Choose “Use on this device” at first launch for the Local Vault; when you later connect a server, Clover offers a one-tap upload.' },
+    { q: 'What does Clover Pro include?', a: 'Multiple servers / users, unlimited AI chats (free tier keeps 3), alternate app icons, and upcoming Widgets, Shortcuts and Spotlight. One-time purchase, yours forever, restorable on all your devices.' },
   ],
 };
 
